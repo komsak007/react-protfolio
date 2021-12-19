@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 
 import profile from "../assets/image/profile/STP_0709.jpg";
+import Footer from "../components/Footer";
 
 const AboutPage = () => {
   return (
@@ -270,17 +271,7 @@ const AboutPage = () => {
         </div>
       </section>
 
-      <footer id="main-footer">
-        <div className="footer-content container">
-          <p>Copyright &copy; 2019. All Rights Reserved</p>
-          <div className="social">
-            <i className="fab fa-twitter"></i>
-            <i className="fab fa-facebook"></i>
-            <i className="fab fa-instagram"></i>
-            <i className="fab fa-linkedin"></i>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 };

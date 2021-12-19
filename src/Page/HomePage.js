@@ -2,6 +2,7 @@ import React from "react";
 import { Link, useHistory } from "react-router-dom";
 
 import logo from "../assets/image/logo.png";
+import Footer from "../components/Footer";
 // import "../assets/css/main.css";
 
 const HomePage = () => {
@@ -90,17 +91,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      <footer id="main-footer">
-        <div className="footer-content container">
-          <p>Copyright &copy; 2019. All Rights Reserved</p>
-          <div className="social">
-            <i className="fab fa-twitter"></i>
-            <i className="fab fa-facebook"></i>
-            <i className="fab fa-instagram"></i>
-            <i className="fab fa-linkedin"></i>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 };

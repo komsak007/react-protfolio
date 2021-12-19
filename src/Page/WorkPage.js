@@ -11,6 +11,7 @@ import item6 from "../assets/image/items/item6.png";
 import item7 from "../assets/image/items/item7.png";
 import item8 from "../assets/image/items/item8.png";
 import item9 from "../assets/image/items/item9.png";
+import Footer from "../components/Footer";
 
 const WorkPage = () => {
   return (
@@ -126,17 +127,7 @@ const WorkPage = () => {
         </div>
       </section>
 
-      <footer id="main-footer">
-        <div className="footer-content container">
-          <p>Copyright &copy; 2019. All Rights Reserved</p>
-          <div className="social">
-            <i className="fab fa-twitter"></i>
-            <i className="fab fa-facebook"></i>
-            <i className="fab fa-instagram"></i>
-            <i className="fab fa-linkedin"></i>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 };
