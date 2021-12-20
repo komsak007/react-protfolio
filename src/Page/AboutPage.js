@@ -173,7 +173,7 @@ const AboutPage = () => {
             </div>
             <div>
               <i className="fas fa-desktop fa-2x"></i>
-              <h4>Application wit Electron</h4>
+              <h4>Application with Electron</h4>
               <p>
                 It is a desktop program used to get values from various sensors
                 to store in a database. Or will adjust the value in the sensor
@@ -182,7 +182,7 @@ const AboutPage = () => {
             </div>
             <div>
               <i className="fas fa-shopping-cart fa-2x"></i>
-              <h3>Ecommerce wit React</h3>
+              <h3>Ecommerce with React</h3>
               <p>
                 product trading web It is a practice learning in web writing
                 with front-end and back-end to understand and be able to use in
