@@ -229,7 +229,7 @@ const AboutPage = () => {
             </div>
             <div>
               <i className="fas fa-igloo fa-2x"></i>
-              <h3>11st sansara</h3>
+              <h3>11th sansara</h3>
               <p>
                 It is the 11th Volunteer Camp held in Phetchabun Province. This
                 is to help repair electrical systems and install internet
